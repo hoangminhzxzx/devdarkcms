@@ -2,13 +2,17 @@
 
 namespace Otruyen\Core;
 
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class OtruyenServiceProvider extends ServiceProvider {
-    public function boot() {
-        echo "OtruyenServiceProvider boot";
+class OtruyenServiceProvider extends BaseServiceProvider
+{
+    public function register()
+    {
+        // Register bindings in the container.
     }
 
-    public function register() {
-        echo "OtruyenServiceProvider register";
+    public function boot()
+    {
+        // Perform post-registration booting of services.
     }
 }
