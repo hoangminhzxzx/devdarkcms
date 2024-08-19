@@ -1,7 +1,8 @@
 {
-    "name": "devdark/cms-package",
+    "name": "devdarkcms/cms-package",
     "description": "A CMS package that calls the otruyen cc API and saves data to the database",
     "type": "library",
+    "homepage": "https://github.com/hoangminhzxzx/devdarkcms.git",
     "require": {
         "guzzlehttp/guzzle": "^7.2",
         "illuminate/database": "^8.0",
