@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DevDarkCms\\cms-package\\ServiceProvider"
+                "devdarkcms\\cms-package\\ServiceProvider"
             ]
         }
     }
